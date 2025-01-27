@@ -1,0 +1,172 @@
+article {
+    height: 540px;
+    width: 250px;
+    background-color: transparent;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+.product-card-heart {
+    width: 40px;
+    height: 40px;
+    margin-left: 200px;
+    position: absolute;
+    background-image: url(pics/heart-black.svg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;    
+    cursor: pointer;
+}
+
+.product-card-heart:hover {
+    background-image: url(pics/heart-purple.svg);
+}
+
+.product-card-img-wrap {
+    height: 345px;
+    background-color: #f6f6f9;
+    border-radius: 12px;
+}    
+
+.product-card-tips-bottom {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    width: 245px;
+    margin-top: 250px;
+    margin-left: 7px;
+    
+}
+
+.product-card-tip-sale {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color:#f6f6f9;
+    background-color: rgb(255,79,79);
+    border-radius: 7px;
+}
+
+.product-card-tip-good-price {
+    margin-top: -7px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color:#f6f6f9;
+    background-color: rgb(193,76,251);    
+    border-radius: 7px;
+}
+
+.product-card-tip-action {
+    margin-top: -7px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color:#f6f6f9;
+    background-color: rgb(14,13,140);
+    font-size:13px;
+    font-weight: bold;
+    border-radius: 7px;       
+}
+
+.product-card-tip-fast-view-button {
+    width: 235px;
+    height: 40px;
+    margin-top: 280px;
+    margin-left: 7px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255,0.7);
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;    
+    opacity: 0;
+    cursor: pointer;
+}
+
+.product-card-wrapper:hover {
+    .product-card-tip-fast-view-button {
+        opacity: 1;
+    }
+    .product-card-tips-bottom {
+        opacity: 0;
+    }
+}
+
+.product-card-middle-wrap {
+    margin-top: 20px;
+}
+
+.product-wallet-new-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255,79,79);
+}
+
+.product-card-prices {
+    line-height: 0;
+}
+
+.product-wallet-old-price {
+    font-size: 18px;
+    color: rgb(135,135,150);
+}
+
+.product-wallet-condition-text {
+    margin-top: -5px;
+    font-size: 13px;
+    color: rgb(255,79,79);
+}
+
+.product-card-brand{
+    margin-top: -7px;
+    font-size: 16px;
+    
+}
+
+.product-card-brand-name {
+    color: rgb(135,135,150);
+}
+
+.product-card-bottom-wrap {
+    margin-top: -7px;
+}
+.product-card-rate {
+    font-size: 18px;
+}
+
+.product-card-rate-star {
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+}
+
+.product-card-rating-count {
+    font-size: 16px;
+    color: rgb(135,135,150);
+}
+
+.product-card-thermometr-text {
+    margin-top: -7px;
+    font-size: 13px;
+}
+
+.product-card-order-button {
+    width: 250px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    color:#f6f6f9;
+    background-color: rgb(167,58,253);
+    border: none;
+    border-radius: 12px;   
+    cursor: pointer;
+}
+
+.product-card-order-button:hover {
+    background-color: rgb(193,76,251);
+}
